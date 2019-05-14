@@ -7,7 +7,7 @@
 *****************************************/
 (function ($) {
 
-	$.cookieBubble = function (options) {
+	$.fn.cookieBubble = function (options) {
 			var private_opt = {
 				cookieName: 'cookieBubble',
 				isVisible: false,
